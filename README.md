@@ -237,7 +237,7 @@ BEM 表示法雖然有點醜，而且有點囉嗦，但是它使得我們可以�
 
 如果你要把 JS 行為與某些標籤綁定起來的話，寫一個 JS 專用的 class 類別名稱。簡單地說就是在名稱上增加一個前綴 `.js-` 的命名空間，例如 `.js-toggle`，`.js-drag-and-drop`，這意味著我們可以透過不同的 class 綁定不同的 JS 行為和 CSS 樣式，而不會為偶發的衝突帶來困擾，範例如下：
 
-    <th class="is-sortable  js-is-sortable">
+    <th class="js-sortable  js-is-sortable">
     </th>
 
 上面的這個 th 標籤有兩個 class，你可以用 is-sortable 這個類別來定義這個表格的樣式，而用另一個 js-is-sortable 來套用排序功能。
